@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  
+  #wrapper #content-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 3.7rem;
+    padding-bottom: 80px;
+  }
+  
+  body.fixed-nav #content-wrapper {
+    margin-top: 56px;
+    padding-left: 90px;
+  }
+  
+  body.fixed-nav.sidebar-toggled #content-wrapper {
+    padding-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    body.fixed-nav #content-wrapper {
+      padding-left: 225px;
+    }
+    body.fixed-nav.sidebar-toggled #content-wrapper {
+      padding-left: 90px;
+    }
+    .container-fluid{
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #container-fluid{
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+  @media (min-width: 576px) {
+      body.fixed-nav #content-wrapper {
+        padding-left: 225px;
+      }
+      body.fixed-nav.sidebar-toggled #content-wrapper {
+        padding-left: 90px;
+      }
+      .container-fluid{
+        padding-right: 0px;
+        padding-left: 90px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      #container-fluid{
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+  }
+  @media (max-width: 575.98px) {
+    body.fixed-nav #content-wrapper {
+      padding-left: 225px;
+    }
+    body.fixed-nav.sidebar-toggled #content-wrapper {
+      padding-left: 90px;
+    }
+    .container-fluid{
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #container-fluid{
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+  
+  .gedf-wrapper{
+    padding-left: 3px;
+    padding-top: 60px;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

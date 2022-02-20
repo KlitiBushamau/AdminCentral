@@ -1,0 +1,26 @@
+<nav class="sidebar navbar-nav toggled sticky-top sticky-offset" [ngClass]="status ? 'hide' : 'show'">
+    <div class="sticky-top sticky-offset">
+
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/dashboard">
+                <fa-icon [icon]="faHome"></fa-icon>
+                <span>Dashboard</span>
+            </a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/analytics">
+                <fa-icon [icon]="faChartPie"></fa-icon>
+                <span>Analytics</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/finance">
+                <fa-icon [icon]="faCircleDollarToSlot"></fa-icon>
+                <span>Finance</span></a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/profile">
+                <fa-icon [icon]="faUser"></fa-icon>
+                <span>Profile</span></a> 
+        </li>
+    </div>
+  </nav>
